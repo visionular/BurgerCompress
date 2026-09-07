@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, privacy, or sensitive request / 账户、隐私或敏感请求
+    url: https://burgercompress.visionular.net/
+    about: Email info@visionular.com privately instead of posting sensitive information. / 请发送邮件至 info@visionular.com，不要公开敏感信息。
+  - name: Official download / 官方下载
+    url: https://burgercompress.visionular.net/download/windows
+    about: Download the latest Windows installer from the official website. / 从官方网站下载最新版 Windows 安装程序。

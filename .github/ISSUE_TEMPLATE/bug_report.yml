@@ -1,0 +1,99 @@
+name: Bug report / 问题反馈
+description: Report a reproducible Burger Compress problem / 反馈可以复现的汉堡压缩问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a problem. Please do not include passwords, access tokens, private media, personal email addresses, or confidential file paths.
+
+        感谢你反馈问题。请勿填写密码、访问令牌、私人媒体、个人邮箱或机密文件路径。
+
+  - type: input
+    id: app-version
+    attributes:
+      label: Burger Compress version / 汉堡压缩版本
+      placeholder: e.g. / 例如 0.1.18
+    validations:
+      required: true
+
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version and OS build / Windows 版本与系统内部版本
+      placeholder: e.g. / 例如 Windows 11 24H2, OS Build 26100.x
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Area / 问题类型
+      options:
+        - Installation or update / 安装或更新
+        - Image processing / 图片处理
+        - Video processing / 视频处理
+        - Queue, history, or output / 队列、历史或输出
+        - Account or template sync / 账户或模板同步
+        - User interface / 用户界面
+        - Other / 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Problem summary / 问题概述
+      description: What went wrong? / 出现了什么问题？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result / 预期结果
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result / 实际结果
+    validations:
+      required: true
+
+  - type: input
+    id: formats
+    attributes:
+      label: Input and output formats / 输入与输出格式
+      placeholder: e.g. / 例如 HEIC → JPEG, MP4 → MP4
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error text or sanitized logs / 错误信息或脱敏日志
+      description: Remove private paths, filenames, emails, tokens, and confidential content before posting. / 提交前请删除私人路径、文件名、邮箱、令牌和机密内容。
+      render: shell
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirmation / 确认
+      options:
+        - label: I downloaded Burger Compress from an official channel. / 我从官方渠道下载了汉堡压缩。
+          required: true
+        - label: I removed sensitive or personal information from this report. / 我已从报告中删除敏感信息和个人信息。
+          required: true
