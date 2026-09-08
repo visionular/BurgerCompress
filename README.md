@@ -1,27 +1,33 @@
+<a id="burger-compress"></a>
+
+[![Burger Compress — Smaller files. Better quality.](assets/burger-compress-cover.png)](https://burgercompress.visionular.net/)
+
 <p align="center">
-  <img src="assets/burger-compress.png" width="128" alt="Burger Compress logo">
+  <a href="https://burgercompress.visionular.net/">
+    <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="Burger Compress logo">
+  </a>
 </p>
 
-<a id="burger-compress"></a>
 <h1 align="center">Burger Compress</h1>
 
 <p align="center">
-  Free, local-first image and video compression for Windows.<br>
-  Your media stays on your computer.
+  <strong>Smaller files. Better quality.</strong><br>
+  Free, local image and video compression for Windows.
 </p>
 
 <p align="center">
-  <a href="https://burgercompress.visionular.net/">Website</a> ·
+  <a href="https://burgercompress.visionular.net/"><strong>Official Website</strong></a> ·
   <a href="https://burgercompress.visionular.net/download/windows">Download for Windows</a> ·
   <a href="https://github.com/visionular/BurgerCompress/releases">Releases</a> ·
   <a href="https://github.com/visionular/BurgerCompress/issues">Report an issue</a> ·
   <a href="#中文">中文</a>
 </p>
 
-> [!NOTE]
-> This is the official public distribution and support repository for Burger Compress. It contains release information and user-facing documentation, not the proprietary application source code.
-
 ## What is Burger Compress?
+
+**[Explore Burger Compress on the official website →](https://burgercompress.visionular.net/)**
+
+Import images and videos in batches, choose a preset, and compress or convert with ease.
 
 Burger Compress is a free Windows desktop app for compressing and converting images and videos in batches. Media processing runs locally by default: source files, thumbnails, paths, processing history, and output files are not uploaded to Burger Compress servers.
 
@@ -48,9 +54,6 @@ Current public build: **v0.1.18**
 | Architecture | Windows x64                                                        |
 | Size         | 116,696,527 bytes (about 111.3 MiB)                                |
 | SHA-256      | `2FB03D46A836C31E8B026B5BEF4E6BC8643E4B5ED5F751438169BF58C3A73A21` |
-
-> [!IMPORTANT]
-> The current v0.1.18 public installer is not yet digitally signed. Download it only from the official website or this repository's official Releases page, then verify the SHA-256 value before installing. A signed build will replace it in a future release.
 
 Verify the download in PowerShell:
 
@@ -92,36 +95,42 @@ Read the current [Privacy Notice](https://burgercompress.visionular.net/privacy)
 
 ## License and distribution
 
+This is the official public distribution and support repository for Burger Compress. It contains release information and user-facing documentation, not the proprietary application source code.
+
 Burger Compress is free to use but is **proprietary, closed-source software**. Free use does not grant an open-source license. Unless applicable law or written authorization from Visionular permits otherwise, you may not copy, modify, reverse engineer, repackage, redistribute, sublicense, or resell the application or its components.
 
 Copyright © Visionular. All rights reserved.
 
 ---
 
+<a id="中文"></a>
+
 <p align="center">
-  <img src="assets/burger-compress.png" width="96" alt="汉堡压缩图标">
+  <a href="https://burgercompress.visionular.net/">
+    <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="汉堡压缩图标">
+  </a>
 </p>
 
-<a id="中文"></a>
 <h1 align="center">汉堡压缩</h1>
 
 <p align="center">
-  免费、本地优先的 Windows 图片与视频压缩工具。<br>
-  你的媒体文件始终留在自己的电脑上。
+  <strong>体积更小，画质更好。</strong><br>
+  免费、本地处理的 Windows 图片与视频压缩工具。
 </p>
 
 <p align="center">
-  <a href="https://burgercompress.visionular.net/">官方网站</a> ·
+  <a href="https://burgercompress.visionular.net/"><strong>官方网站</strong></a> ·
   <a href="https://burgercompress.visionular.net/download/windows">下载 Windows 版</a> ·
   <a href="https://github.com/visionular/BurgerCompress/releases">版本发布</a> ·
   <a href="https://github.com/visionular/BurgerCompress/issues">反馈问题</a> ·
   <a href="#burger-compress">English</a>
 </p>
 
-> [!NOTE]
-> 这是 Burger Compress（汉堡压缩）的官方公开分发与支持仓库，用于提供版本信息和面向用户的文档，不包含闭源应用程序的源代码。
-
 ## 汉堡压缩是什么？
+
+**[前往官方网站，了解汉堡压缩 →](https://burgercompress.visionular.net/)**
+
+批量导入图片与视频，选择预设，轻松完成压缩或格式转换。
 
 汉堡压缩是一款免费的 Windows 桌面软件，可以批量压缩和转换图片、视频。媒体处理默认在本机完成：源文件、缩略图、文件路径、处理历史和输出文件不会上传到汉堡压缩服务器。
 
@@ -148,9 +157,6 @@ Copyright © Visionular. All rights reserved.
 | 架构     | Windows x64                                                        |
 | 文件大小 | 116,696,527 字节（约 111.3 MiB）                                   |
 | SHA-256  | `2FB03D46A836C31E8B026B5BEF4E6BC8643E4B5ED5F751438169BF58C3A73A21` |
-
-> [!IMPORTANT]
-> 当前 v0.1.18 公开安装程序尚未完成数字签名。请只从官方网站或本仓库的官方 Releases 页面下载，并在安装前核对 SHA-256。后续版本将替换为已签名安装包。
 
 在 PowerShell 中校验下载文件：
 
@@ -191,6 +197,8 @@ Get-FileHash .\Burger-Compress-0.1.18-Setup-x64.exe -Algorithm SHA256
 - 产品官网：[burgercompress.visionular.net](https://burgercompress.visionular.net/)
 
 ## 许可与分发
+
+这是 Burger Compress（汉堡压缩）的官方公开分发与支持仓库，用于提供版本信息和面向用户的文档，不包含闭源应用程序的源代码。
 
 Burger Compress（汉堡压缩）可以免费使用，但属于 **专有闭源软件**。免费使用不等于授予开源许可。除非适用法律或 Visionular 的书面授权另有允许，不得复制、修改、逆向工程、重新打包、再分发、转授权、转售本软件或其组成部分。
 
