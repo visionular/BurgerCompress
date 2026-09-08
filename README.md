@@ -1,11 +1,9 @@
 <a id="burger-compress"></a>
 
-[![Burger Compress — Smaller files. Better quality.](assets/burger-compress-cover.png)](https://burgercompress.visionular.net/)
+<img src="assets/burger-compress-cover.png" alt="Burger Compress — Images and video. Compress and convert for free.">
 
 <p align="center">
-  <a href="https://burgercompress.visionular.net/">
-    <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="Burger Compress logo">
-  </a>
+  <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="Burger Compress logo">
 </p>
 
 <h1 align="center">Burger Compress</h1>
@@ -106,9 +104,7 @@ Copyright © Visionular. All rights reserved.
 <a id="中文"></a>
 
 <p align="center">
-  <a href="https://burgercompress.visionular.net/">
-    <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="汉堡压缩图标">
-  </a>
+  <img src="https://raw.githubusercontent.com/visionular/BurgerCompress/main/assets/burger-compress-logo.png" width="88" height="88" alt="汉堡压缩图标">
 </p>
 
 <h1 align="center">汉堡压缩</h1>
