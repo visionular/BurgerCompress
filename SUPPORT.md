@@ -2,6 +2,12 @@
 
 Thank you for helping us improve Burger Compress. Please choose the right contact path so we can handle your request safely and efficiently.
 
+## In-app feedback
+
+In version 1.0.1 or later, sign in and open **About → Feedback** to send a product question or suggestion. Team replies are sent to your verified account email. Do not include passwords, verification codes, access tokens, or private media.
+
+You do not need to sign in to process local media. If you cannot sign in, use the email contact below instead.
+
 ## Product bugs and compatibility problems
 
 For reproducible product problems, open a [GitHub issue](https://github.com/visionular/BurgerCompress/issues/new/choose).
@@ -34,6 +40,12 @@ Official website: [burgercompress.visionular.net](https://burgercompress.visionu
 # 汉堡压缩支持说明
 
 感谢你帮助我们改进 Burger Compress（汉堡压缩）。请选择合适的联系渠道，以便我们安全、高效地处理问题。
+
+## 应用内反馈
+
+在 1.0.1 及后续版本中，登录后打开**关于 → 留言与反馈**，即可提交产品问题或建议。团队回复会发送到已验证的账户邮箱。请勿填写密码、验证码、访问令牌或私人媒体内容。
+
+处理本地媒体无需登录。如果无法登录，请使用下方邮件渠道联系。
 
 ## 产品故障与兼容性问题
 

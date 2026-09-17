@@ -15,7 +15,7 @@ body:
     id: app-version
     attributes:
       label: Burger Compress version / 汉堡压缩版本
-      placeholder: e.g. / 例如 0.1.18
+      placeholder: e.g. / 例如 1.0.1
     validations:
       required: true
 
@@ -37,6 +37,7 @@ body:
         - Video processing / 视频处理
         - Queue, history, or output / 队列、历史或输出
         - Account or template sync / 账户或模板同步
+        - In-app feedback / 应用内反馈
         - User interface / 用户界面
         - Other / 其他
     validations:
