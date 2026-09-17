@@ -48,16 +48,6 @@ Current stable release: **1.0.1**, published **September 17, 2026**. Available f
 
 The main download link always follows the latest stable release. For the exact file described above, use the [version 1.0.1 installer](https://burgercompress.oss-accelerate.aliyuncs.com/releases/stable/Burger-Compress-1.0.1-Setup-x64.exe).
 
-To verify **1.0.1** in PowerShell:
-
-```powershell
-Get-FileHash .\Burger-Compress-1.0.1-Setup-x64.exe -Algorithm SHA256
-Get-AuthenticodeSignature .\Burger-Compress-1.0.1-Setup-x64.exe |
-  Format-List Status, SignerCertificate
-```
-
-The hash must match this version's value above; the signature should be `Valid`, with the publisher shown above. If verification fails, do not run the installer. Download again from the official channel or [contact support](SUPPORT.md).
-
 ### New in 1.0.1
 
 - Send feedback from **About** after signing in; team replies go to your verified account email.
@@ -141,16 +131,6 @@ Copyright © Visionular. All rights reserved.
 | SHA-256 | `0758F85678EBD5B78DB4D7D854B889B404FCE0E0A6F039C24B4A325C54FEC68C` |
 
 主要下载入口会自动指向最新稳定版。如需核验上表对应的文件，请使用 [1.0.1 固定版本下载](https://burgercompress.oss-accelerate.aliyuncs.com/releases/stable/Burger-Compress-1.0.1-Setup-x64.exe)。
-
-在 PowerShell 中校验 **1.0.1**：
-
-```powershell
-Get-FileHash .\Burger-Compress-1.0.1-Setup-x64.exe -Algorithm SHA256
-Get-AuthenticodeSignature .\Burger-Compress-1.0.1-Setup-x64.exe |
-  Format-List Status, SignerCertificate
-```
-
-哈希值应与上表一致；数字签名状态应为 `Valid`，发布者与上表一致。验证失败时请勿运行安装程序，请从官方渠道重新下载或[联系支持](SUPPORT.md)。
 
 ### 1.0.1 更新内容
 
