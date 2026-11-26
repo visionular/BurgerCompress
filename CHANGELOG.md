@@ -1,8 +1,36 @@
 # Release notes / 更新日志
 
-Official installers: [download the latest stable version](https://burgercompress.visionular.net/download/windows). Installers are hosted on the official OSS service, not attached to this repository.
+Official Windows installers are available from the [official website](https://burgercompress.visionular.net/download/windows) and [GitHub Releases](https://github.com/visionular/BurgerCompress/releases).
 
-官方安装包：[下载最新稳定版](https://burgercompress.visionular.net/download/windows)。安装包由官方 OSS 服务提供，不附在本仓库中。
+正式 Windows 安装包可从[官网](https://burgercompress.visionular.net/download/windows)和 [GitHub Releases](https://github.com/visionular/BurgerCompress/releases)下载。
+
+## 1.0.9 · 2026-11-26
+
+### English
+
+- The Windows context menu can send supported images and videos directly to compression.
+- Newly selected videos follow the current mode and batch template. Compression preserves compatible source containers where possible, and conversion retains applicable audio and subtitle tracks.
+- Improves filtering, sorting, and navigation with large media lists, as well as creating and renaming personal templates.
+- Improves batch pause and resume, and adds quick access to the output folder from the import page and Settings.
+- Reduces the amount of application code and dependency files in the installer.
+- Resolves several known issues.
+
+### 简体中文
+
+- Windows 右键快捷菜单可直接将支持的图片或视频送入压缩流程。
+- 视频列表支持按当前模式和批量模板设置新选中的文件。压缩优先保留兼容的源封装，格式转换沿用适用的音轨和字幕。
+- 优化大批量媒体列表的筛选、排序和切页，以及个人模板的创建与重命名。
+- 优化当前任务的批量暂停和继续操作，支持从导入页和设置页一键打开保存文件夹。
+- 精简安装包中的应用代码和依赖文件。
+- 解决了一些已知问题。
+
+[Download 1.0.9 / 下载 1.0.9](https://github.com/visionular/BurgerCompress/releases/download/v1.0.9/Burger-Compress-1.0.9-Setup-x64.exe)
+
+SHA-256:
+
+```text
+33DCB596B687E2B65957E281CBCED592A0D0B2814EEEA3332989D4810A653E01
+```
 
 ## 1.0.1 · 2026-09-17
 

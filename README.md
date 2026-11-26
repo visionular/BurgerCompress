@@ -36,23 +36,24 @@ Media processing runs on your computer. Your source media, thumbnails, file path
 
 [**Download the latest stable installer →**](https://burgercompress.visionular.net/download/windows)
 
-Current stable release: **1.0.1**, published **September 17, 2026**. Available for **Windows 11 x64**. A macOS installer is not currently available.
+Current stable release: **1.0.9**, published **November 26, 2026** for **Windows 11 x64**.
+
+[**Download 1.0.9 from GitHub**](https://github.com/visionular/BurgerCompress/releases/download/v1.0.9/Burger-Compress-1.0.9-Setup-x64.exe) · [View the GitHub release](https://github.com/visionular/BurgerCompress/releases/tag/v1.0.9)
 
 | Release detail | Value |
 | --- | --- |
-| Installer | `Burger-Compress-1.0.1-Setup-x64.exe` |
-| Size | 116,826,688 bytes (111.4 MiB) |
-| Digital signature | Certum OV, SHA-256 with an RFC 3161 timestamp |
+| Installer | `Burger-Compress-1.0.9-Setup-x64.exe` |
+| Size | 118,167,304 bytes (112.7 MiB) |
+| Digital signature | Timestamped Authenticode signature |
 | Publisher | `杭州微帧信息科技有限公司` |
-| SHA-256 | `0758F85678EBD5B78DB4D7D854B889B404FCE0E0A6F039C24B4A325C54FEC68C` |
+| SHA-256 | `33DCB596B687E2B65957E281CBCED592A0D0B2814EEEA3332989D4810A653E01` |
 
-The main download link always follows the latest stable release. For the exact file described above, use the [version 1.0.1 installer](https://burgercompress.oss-accelerate.aliyuncs.com/releases/stable/Burger-Compress-1.0.1-Setup-x64.exe).
+### New in 1.0.9
 
-### New in 1.0.1
-
-- Send feedback from **About** after signing in; team replies go to your verified account email.
-- Stable updates and downloads use Alibaba Cloud OSS global acceleration.
-- About uses a top-right close button and saves its update preference immediately. The feedback button highlights when a message is ready to send.
+- Send supported images and videos directly to compression from the Windows context menu.
+- Filter, sort, and navigate large media lists more smoothly.
+- Pause and resume tasks in batches, and open the output folder from the import page or Settings.
+- Resolves several known issues.
 
 See the bilingual [release notes](CHANGELOG.md).
 
@@ -84,7 +85,7 @@ Local media processing does not require an account. Sign in to sync personal tem
 
 ## About this repository
 
-This is the official public distribution and support repository for Burger Compress. It contains product information, release notes, and user-facing documentation, **not the application source code**. Official installers are distributed through the website and its OSS download service.
+This is the official public distribution and support repository for Burger Compress. Repository archives contain product information, release notes, and user documentation. Get the official Windows installer from the website or the **Assets** section of the [GitHub release](https://github.com/visionular/BurgerCompress/releases/tag/v1.0.9).
 
 Burger Compress is free to use but is **proprietary, closed-source software**. Free use does not grant an open-source license. Unless applicable law or written authorization from Visionular permits otherwise, you may not copy, modify, reverse engineer, repackage, redistribute, sublicense, or resell the application or its components.
 
@@ -120,23 +121,24 @@ Copyright © Visionular. All rights reserved.
 
 [**下载最新稳定版安装程序 →**](https://burgercompress.visionular.net/download/windows)
 
-当前稳定版本：**1.0.1**，发布于 **2026 年 9 月 17 日**。支持 **Windows 11 x64**，目前尚未提供 macOS 安装包。
+当前稳定版本为 **1.0.9**，于 **2026 年 11 月 26 日**发布，支持 **Windows 11 x64**。
+
+[**从 GitHub 下载 1.0.9**](https://github.com/visionular/BurgerCompress/releases/download/v1.0.9/Burger-Compress-1.0.9-Setup-x64.exe) · [查看 GitHub 发行页](https://github.com/visionular/BurgerCompress/releases/tag/v1.0.9)
 
 | 版本信息 | 内容 |
 | --- | --- |
-| 安装程序 | `Burger-Compress-1.0.1-Setup-x64.exe` |
-| 文件大小 | 116,826,688 字节（111.4 MiB） |
-| 数字签名 | Certum OV，SHA-256 签名及 RFC 3161 时间戳 |
+| 安装程序 | `Burger-Compress-1.0.9-Setup-x64.exe` |
+| 文件大小 | 118,167,304 字节（112.7 MiB） |
+| 数字签名 | 带时间戳的 Authenticode 签名 |
 | 发布者 | `杭州微帧信息科技有限公司` |
-| SHA-256 | `0758F85678EBD5B78DB4D7D854B889B404FCE0E0A6F039C24B4A325C54FEC68C` |
+| SHA-256 | `33DCB596B687E2B65957E281CBCED592A0D0B2814EEEA3332989D4810A653E01` |
 
-主要下载入口会自动指向最新稳定版。如需核验上表对应的文件，请使用 [1.0.1 固定版本下载](https://burgercompress.oss-accelerate.aliyuncs.com/releases/stable/Burger-Compress-1.0.1-Setup-x64.exe)。
+### 1.0.9 更新内容
 
-### 1.0.1 更新内容
-
-- 登录后可在**关于 → 留言与反馈**中发送建议或问题，团队回复发送到已验证的账户邮箱。
-- 稳定版更新与下载使用阿里云 OSS 全球加速地址。
-- “关于”改为右上角关闭按钮，更新检查设置即时保存；反馈内容可发送时，发送按钮高亮。
+- 通过 Windows 右键快捷菜单，将支持的图片和视频直接送入压缩流程。
+- 优化大批量媒体列表的筛选、排序和切页。
+- 支持批量暂停和继续任务，并可从导入页或设置页直接打开保存文件夹。
+- 解决了一些已知问题。
 
 完整双语说明见[更新日志](CHANGELOG.md)。
 
@@ -168,7 +170,7 @@ Copyright © Visionular. All rights reserved.
 
 ### 关于本仓库
 
-这是 Burger Compress（汉堡压缩）的官方公开分发与支持仓库，提供产品介绍、更新记录和使用说明，**不包含应用程序源代码**。正式安装包通过官网及其 OSS 下载服务分发。
+这是 Burger Compress（汉堡压缩）的官方公开分发与支持仓库。仓库归档包含产品介绍、更新记录和使用说明。可从官网或 [GitHub 发行页](https://github.com/visionular/BurgerCompress/releases/tag/v1.0.9)的 **Assets** 区域获取正式 Windows 安装包。
 
 汉堡压缩可以免费使用，但属于 **专有闭源软件**。免费使用不等于授予开源许可。除非适用法律或 Visionular 的书面授权另有允许，不得复制、修改、逆向工程、重新打包、再分发、转授权、转售本软件或其组成部分。
 
